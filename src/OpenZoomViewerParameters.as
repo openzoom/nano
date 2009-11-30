@@ -40,13 +40,12 @@ package
 {
 
 /**
- * @private
- *
- * Lists all valid parameters of the OpenZoom Viewer.
+ * List of all valid parameters for the OpenZoom Viewer.
  */
 public class OpenZoomViewerParameters
 {
     public static const SOURCE:String = "source"
+    public static const VIEWPORT_BOUNDS:String = "viewportBounds" // e.g. viewportBounds=0.5, 0.2, 0.5, 0.5
 }
 
 }
