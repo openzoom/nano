@@ -17,7 +17,7 @@
 //  The Original Code is the OpenZoom SDK.
 //
 //  The Initial Developer of the Original Code is Daniel Gasienica.
-//  Portions created by the Initial Developer are Copyright (c) 2007-2009
+//  Portions created by the Initial Developer are Copyright (c) 2007-2010
 //  the Initial Developer. All Rights Reserved.
 //
 //  Contributor(s):
@@ -56,18 +56,18 @@ public class FullScreenButton extends Sprite
     //  Constructor
     //
     //--------------------------------------------------------------------------
-
+    
     /**
      * Constructor.
      */
-	public function FullScreenButton()
-	{
+    public function FullScreenButton()
+    {
         addEventListener(Event.ADDED_TO_STAGE,
-                         addedToStageHandler,
-                         false, 0, true)
+            addedToStageHandler,
+            false, 0, true)
         createChildren()
-	}
-	
+    }
+    
     //--------------------------------------------------------------------------
     //
     //  Variables
@@ -76,7 +76,7 @@ public class FullScreenButton extends Sprite
     
     private var enterButton:FullScreenEnterButton
     private var exitButton:FullScreenExitButton
-	
+    
     //--------------------------------------------------------------------------
     //
     //  Methods
@@ -85,21 +85,21 @@ public class FullScreenButton extends Sprite
     
     private function createChildren():void
     {
-    	if (!enterButton)
-    	{
-    		enterButton = new FullScreenEnterButton()
-    		enterButton.addEventListener(MouseEvent.CLICK,
-    		                             enterButton_clickHandler,
-    		                             false, 0, true)
+        if (!enterButton)
+        {
+            enterButton = new FullScreenEnterButton()
+            enterButton.addEventListener(MouseEvent.CLICK,
+                enterButton_clickHandler,
+                false, 0, true)
             addChild(enterButton)
-    		
-    		exitButton = new FullScreenExitButton()
-    		exitButton.visible = false
+            
+            exitButton = new FullScreenExitButton()
+            exitButton.visible = false
             exitButton.addEventListener(MouseEvent.CLICK,
-                                        exitButton_clickHandler,
-                                        false, 0, true)
+                exitButton_clickHandler,
+                false, 0, true)
             addChild(exitButton)
-    	}
+        }
     }
     
     //--------------------------------------------------------------------------
@@ -107,7 +107,7 @@ public class FullScreenButton extends Sprite
     //  Event handlers
     //
     //--------------------------------------------------------------------------
-
+    
     private function enterButton_clickHandler(event:MouseEvent):void
     {
         FullScreenUtil.toggleFullScreen(stage)
@@ -121,22 +121,22 @@ public class FullScreenButton extends Sprite
     private function addedToStageHandler(event:Event):void
     {
         stage.addEventListener(FullScreenEvent.FULL_SCREEN,
-                               stage_fullScreenHandler,
-                               false, 0, true)
+            stage_fullScreenHandler,
+            false, 0, true)
     }
     
     private function stage_fullScreenHandler(event:FullScreenEvent):void
     {
-    	if (event.fullScreen)
-    	{
+        if (event.fullScreen)
+        {
             enterButton.visible = false
             exitButton.visible = true   		
-    	}
-    	else
-    	{
+        }
+        else
+        {
             enterButton.visible = true
             exitButton.visible = false  		
-    	}
+        }
     }
 }
 
