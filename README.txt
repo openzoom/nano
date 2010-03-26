@@ -33,6 +33,12 @@
   Changelog
   ---------
 
+  0.9.1.1 (2010-03-27)
+  --------------------
+
+  * Split viewer into BasicOpenZoomViewer (chromeless) and OpenZoomViewer (UI).  
+  * Switched to LicenseUtil for about context menu item.
+
   0.9.1 (2009-11-29)
   ------------------
 
@@ -47,6 +53,7 @@
     http://community.openzoom.org/openzoom/topics/load_openzoom_swf_in_another_flash_file
   
   * Added README.txt
+
 
   0.6.1.370 (2009-04-27)
   ----------------------
