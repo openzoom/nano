@@ -70,6 +70,7 @@ import org.openzoom.flash.components.MultiScaleImage;
 import org.openzoom.flash.components.Spinner;
 import org.openzoom.flash.descriptors.IImageSourceDescriptor;
 import org.openzoom.flash.descriptors.IMultiScaleImageDescriptor;
+import org.openzoom.flash.descriptors.imgcnv.ImgcnvDescriptor;
 import org.openzoom.flash.utils.ExternalMouseWheel;
 import org.openzoom.flash.utils.LicenseUtil;
 import org.openzoom.flash.utils.math.clamp;
@@ -126,6 +127,8 @@ public class BasicOpenZoomViewer extends Sprite
      */
     public function BasicOpenZoomViewer()
     {
+        DEFAULT_SOURCE = new ImgcnvDescriptor("http://imgs.xkcd.com/money_tiles8/tile_", 12528, 8352)
+
         addEventListener(Event.ADDED_TO_STAGE,
             addedToStageHandler,
             false, 0, true)
