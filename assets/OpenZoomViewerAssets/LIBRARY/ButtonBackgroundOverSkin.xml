@@ -1,0 +1,21 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="ButtonBackgroundOverSkin" itemID="4a735c06-0000623b" sourceLibraryItemHRef="ButtonBackgroundUpSkin copy" lastModified="1249076516">
+  <timeline>
+    <DOMTimeline name="ButtonBackgroundOverSkin">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="ButtonBackgroundSkin" name="" centerPoint3DX="9.5" centerPoint3DY="9.5">
+                  <transformationPoint>
+                    <Point x="9.5" y="9.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

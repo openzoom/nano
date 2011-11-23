@@ -1,0 +1,102 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="FullScreenExitButton" itemID="4a7365d1-0000b1eb" linkageExportForAS="true" linkageClassName="org.openzoom.nano.ui.FullScreenExitButton" sourceLibraryItemHRef="FullScreenEnterButton copy" symbolType="button" lastModified="1249077024">
+  <timeline>
+    <DOMTimeline name="FullScreenExitButton" currentFrame="2">
+      <layers>
+        <DOMLayer name="Icon" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMGroup>
+                  <members>
+                    <DOMShape>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#999999"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle1="1" edges="!235 116S2|269 80!269 80|298 110!298 110|264 145!264 145|290 171!290 171|207 171!207 171|207 90!207 90|235 116!265 236|299 271!299 271|269 300!269 300|236 267!236 267|208 293!208 293|208 210!208 210|291 210!291 210|265 236!144 117|144
+ 118!144 118|145 118!145 118|171 92!171 92|171 173!171 173|90 173!90 173|116 147!116 147|79 111!79 111|110 80!110 80|144 117!88 209|169 209!169 209|169 292!169 292|143 266!143 266|108 300!108 300|78 271!78 271|114 235!114 235|88 209"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements>
+                <DOMGroup>
+                  <members>
+                    <DOMShape>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#FFFFFF"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle1="1" edges="
+!269 80S2|298 110!298 110|264 145!264 145|290 171!290 171|207 171!207 171|207 90!207 90|235 116!235 116|269 80!265 236|299 271!299 271|269 300!269 300|236 267!236 267|208 293!208 293|208 210!208 210|291 210!291 210|265 236!144 117|144
+ 118!144 118|145 118!145 118|171 92!171 92|171 173!171 173|90 173!90 173|116 147!116 147|79 111!79 111|110 80!110 80|144 117!88 209|169 209!169 209|169 292!169 292|143 266!143 266|108 300!108 300|78 271!78 271|114 235!114 235|88 209"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="2" duration="2" keyMode="9728">
+              <elements>
+                <DOMGroup>
+                  <members>
+                    <DOMShape>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#FFFFFF"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle1="1" edges="
+!298 120S2|264 155!264 155|290 181!290 181|207 181!207 181|207 100!207 100|235 126!235 126|269 90!269 90|298 120!291 220|265 246!265 246|299 281!299 281|269 310!269 310|236 277!236 277|208 303!208 303|208 220!208 220|291 220!144 128|145
+ 128!145 128|171 102!171 102|171 183!171 183|90 183!90 183|116 157!116 157|79 121!79 121|110 90!110 90|144 127!144 127|144 128!88 219|169 219!169 219|169 302!169 302|143 276!143 276|108 310!108 310|78 281!78 281|114 245!114 245|88 219"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Background" color="#4FFF4F" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="ButtonBackgroundUpSkin" name="" centerPoint3DX="9.5" centerPoint3DY="9.5">
+                  <transformationPoint>
+                    <Point x="9.5" y="9.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="ButtonBackgroundOverSkin" name="" centerPoint3DX="9.5" centerPoint3DY="9.5">
+                  <transformationPoint>
+                    <Point x="9.5" y="9.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="2" duration="2" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="ButtonBackgroundDownSkin" name="" centerPoint3DX="9.5" centerPoint3DY="9.5">
+                  <transformationPoint>
+                    <Point x="9.5" y="9.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,24 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="ButtonBackgroundDownSkin" itemID="4a735c35-00006410" sourceLibraryItemHRef="ButtonBackgroundOverSkin copy" lastModified="1249076525" lastUniqueIdentifier="1">
+  <timeline>
+    <DOMTimeline name="ButtonBackgroundDownSkin">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="ButtonBackgroundSkin" name="" centerPoint3DX="9.5" centerPoint3DY="9.5">
+                  <matrix>
+                    <Matrix a="-1" d="-1" tx="19" ty="19"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="9.5" y="9.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

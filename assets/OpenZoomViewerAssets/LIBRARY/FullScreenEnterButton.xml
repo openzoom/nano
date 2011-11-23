@@ -1,0 +1,116 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="FullScreenEnterButton" itemID="4a736681-0000b5d8" linkageExportForAS="true" linkageClassName="org.openzoom.nano.ui.FullScreenEnterButton" sourceLibraryItemHRef="ShowAllButton copy" symbolType="button" lastModified="1249076877">
+  <timeline>
+    <DOMTimeline name="FullScreenEnterButton">
+      <layers>
+        <DOMLayer name="Icon" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMGroup>
+                  <members>
+                    <DOMShape>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#999999"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle1="1" edges="!217 80S2|300 80!300 80|300 161!300 161|272 135!272 135|238 171!238 171|209 141!209 141|243 106!243 106|217 80!239 210|272 243!272 243|300 217!300 217|300 300!300 300|217 300!217 300|243 274!243 274|209 239!209 239|239 210!135 106|172
+ 142!172 142|141 173!141 173|107 136!107 136|107 135!107 135|106 135!106 135|80 161!80 161|80 80!80 80|161 80!161 80|135 106!141 209|171 238!171 238|135 274!135 274|161 300!161 300|80 300!80 300|80 217!80 217|106 243!106 243|141 209"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements>
+                <DOMGroup>
+                  <matrix>
+                    <Matrix a="1.00917053222656" d="1.00917053222656" tx="-0.1" ty="-0.1"/>
+                  </matrix>
+                  <members>
+                    <DOMShape>
+                      <matrix>
+                        <Matrix a="1.00917053222656" d="1.00917053222656" tx="-0.1" ty="-0.1"/>
+                      </matrix>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#FFFFFF"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle1="1" edges="
+!299 81S2|299 162!299 162|272 136!272 136|238 171!238 171|209 142!209 142|243 107!243 107|217 81!217 81|299 81!239 210|272 243!272 243|299 217!299 217|299 299!299 299|217 299!217 299|243 273!243 273|209 239!209 239|239 210!136 107|172
+ 143!172 143|142 173!142 173|107.5 136.5!107.5 136.5|107.5 136!107.5 136|107 136!107 136|81 162!81 162|81 81!81 81|162 81!162 81|136 107!142 209|171 238!171 238|136 273!136 273|162 299!162 299|81 299!81 299|81 217!81 217|107 243!107 243
+|142 209"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="2" duration="2" keyMode="9728">
+              <elements>
+                <DOMGroup>
+                  <matrix>
+                    <Matrix a="1.00917053222656" d="1.00917053222656" tx="-0.1" ty="0.4"/>
+                  </matrix>
+                  <members>
+                    <DOMShape>
+                      <matrix>
+                        <Matrix a="1.00917053222656" d="1.00917053222656" tx="-0.1" ty="0.4"/>
+                      </matrix>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#FFFFFF"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle1="1" edges="
+!217 81S2|299 81!299 81|299 162!299 162|272 136!272 136|238 171!238 171|209 142!209 142|243 107!243 107|217 81!239 210|272 243!272 243|299 217!299 217|299 299!299 299|217 299!217 299|243 273!243 273|209 239!209 239|239 210!136 107|172
+ 143!172 143|142 173!142 173|107.5 136.5!107.5 136.5|107.5 136!107.5 136|107 136!107 136|81 162!81 162|81 81!81 81|162 81!162 81|136 107!142 209|171 238!171 238|136 273!136 273|162 299!162 299|81 299!81 299|81 217!81 217|107 243!107 243
+|142 209"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Background" color="#4FFF4F" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="ButtonBackgroundUpSkin" name="" centerPoint3DX="9.5" centerPoint3DY="9.5">
+                  <transformationPoint>
+                    <Point x="9.5" y="9.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="ButtonBackgroundOverSkin" name="" centerPoint3DX="9.5" centerPoint3DY="9.5">
+                  <transformationPoint>
+                    <Point x="9.5" y="9.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="2" duration="2" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="ButtonBackgroundDownSkin" name="" centerPoint3DX="9.5" centerPoint3DY="9.5">
+                  <transformationPoint>
+                    <Point x="9.5" y="9.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>
