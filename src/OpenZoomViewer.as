@@ -51,7 +51,7 @@ import org.openzoom.nano.ui.ZoomOutButton;
  * OpenZoom Nano
  * High-resolution image viewer based on the open source OpenZoom SDK.
  */
-[SWF(width="960", height="600", frameRate="30", backgroundColor="#000000")]
+[SWF(width="960", height="600", frameRate="60", backgroundColor="#000000")]
 public class OpenZoomViewer extends BasicOpenZoomViewer
 {
     //--------------------------------------------------------------------------
