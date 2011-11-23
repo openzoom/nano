@@ -162,12 +162,12 @@ public class OpenZoomViewer extends BasicOpenZoomViewer
         fullScreenButton.width = fullScreenButton.height = DEFAULT_BUTTON_SIZE
         addChild(fullScreenButton)
     }
-	
-	//--------------------------------------------------------------------------
-	//
-	//  Methods: Layout
-	//
-	//--------------------------------------------------------------------------
+
+    //--------------------------------------------------------------------------
+    //
+    //  Methods: Layout
+    //
+    //--------------------------------------------------------------------------
 
     override protected function updateDisplayList(unscaledWidth:Number,
                                          unscaledHeight:Number):void
